@@ -1,7 +1,7 @@
 pg-dump-filter
 ==============
 
-`pg-dump-filter` is a tool that filter tables from a regular
+`pg-dump-filter` is a tool that filters tables from a regular
 PostgreSQL dump file. It could be used to reload some tables from a
 dump in living instance, or to ignore others while creating a test
 environment.
