@@ -22,7 +22,7 @@ Usage
     Options:
         -t, --table NAME    output only tables matching NAME
         -T, --exclude-table NAME
-                        no not output tables matching NAME
+                            no not output tables matching NAME
         -c, --copy-only     output only COPY FROM statements
         -r, --truncate      empty tables before COPY FROM statements
         -h, --help          print this help menu
@@ -53,3 +53,6 @@ exact match, you have to type:
     -t "^pool$|^customer$"`
     
 Be warned.
+
+I've written this tool for personal needs. If you find it useful,
+don't hesitate to send me some remarks for improvements requests.
