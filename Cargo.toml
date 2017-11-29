@@ -1,0 +1,8 @@
+[package]
+name = "pg-dump-filter"
+version = "0.1.0"
+authors = ["Frédéric de Zorzi <f@idez.net>"]
+
+[dependencies]
+regex = "0.2"
+getopts = "0.2"
