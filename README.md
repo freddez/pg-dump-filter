@@ -9,8 +9,8 @@ environment.
 Install
 -------
 
-This tool is written in `Rust <https://www.rust-lang.org/>`_ language. Install
-it, then run:
+This tool is written in [Rust language](https://www.rust-lang.org/). 
+Install it, then run:
 
   cargo install
 
@@ -43,6 +43,13 @@ Important notice
 
 Tables arguments folows the [regex rust library
 syntax](https://docs.rs/regex/0.2.2/regex/#syntax). For example the
-argument `-t "pool|customer"` matches all `*pool*` and `*customer*`
-table names. If you want an exact match, you have to type `-t
-"^pool$|^customer$"`. Be warned.
+argument:
+
+    -t "pool|customer"
+
+matches all `*pool*` and `*customer*` table names. If you want an
+exact match, you have to type:
+
+    -t "^pool$|^customer$"`
+    
+Be warned.
