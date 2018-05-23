@@ -9,7 +9,7 @@ use regex::Regex;
 fn filter_dump(include_tables: Option<String>, exclude_tables: Option<String>, copy_only: bool,
                truncate: bool) {
     let stdin = io::stdin();
-    let copy_re = Regex::new(r"^COPY (\w+) \(([\w, ]+)\) FROM stdin;").unwrap();
+    let copy_re = Regex::new(r"^COPY public.(\w+) \(([\w, ]+)\) FROM stdin;").unwrap();
     
     let mut in_copy_statement = false;
     let mut output_copy = false;
